@@ -1,0 +1,96 @@
+Reading in the file 
+roadNet-PA.txt 
+# Pennsylvania road network
+# Nodes: 1088092 Edges: 3083796
+# FromNodeId    ToNodeId
+0       1
+0       6309
+0       6353
+1       0
+6353    0
+6353    6354
+6353    6364
+6353    6386
+6309    0
+6309    6310
+6309    6344
+2       3
+2       4
+2       7
+3       2
+3       309
+4       2
+4       273
+4       274
+4       388
+7       2
+7       8
+7       16
+7       3998
+309     3
+309     6
+309     274
+309     1060390
+273     4
+273     3861
+273     3862
+273     3872
+274     4
+274     309
+274     3862
+274     1060215
+388     4
+388     389
+388     4005
+388     4006
+5       6
+5       8
+5       9
+6       5
+6       305
+6       309
+isDirected: false, allowsSelfLoops: false, nodes: [0, 1, 6309, 6353, 6354, 6364, 6386, 6310, 6344, 2, 3, 4, 7, 309, 273, 274, 388, 8, 16, 3998, 6, 1060390, 3861, 3862, 3872, 1060215, 389, 4005, 4006, 5, 9, 305], edges: {[1, 0]=6, [6353, 0]=17, [6309, 0]=16, [6344, 6309]=1, [6310, 6309]=17, [6354, 6353]=6, [6364, 6353]=8, [6386, 6353]=7, [4, 2]=9, [3, 2]=14, [7, 2]=9, [309, 3]=3, [273, 4]=15, [274, 4]=17, [388, 4]=9, [8, 7]=5, [16, 7]=16, [3998, 7]=19, [1060390, 309]=12, [6, 309]=18, [274, 309]=5, [3861, 273]=7, [3872, 273]=0, [3862, 273]=11, [1060215, 274]=18, [3862, 274]=18, [389, 388]=5, [4005, 388]=11, [4006, 388]=16, [5, 8]=12, [305, 6]=2, [5, 6]=8, [9, 5]=1}
+
+Takes input for any starting node wanted 
+
+Enter the source node: 5
+
+
+Results produced  
+
+
+Shortest Paths from Source Node 5:
+To Node 6353: Can't reach
+To Node 6354: Can't reach
+To Node 6310: Can't reach
+To Node 273: 50 miles
+To Node 274: 31 miles
+To Node 1060215: 49 miles
+To Node 1060390: 38 miles
+To Node 3872: 50 miles
+To Node 4005: 55 miles
+To Node 4006: 60 miles
+To Node 3998: 36 miles
+To Node 6309: Can't reach
+To Node 6364: Can't reach
+To Node 6386: Can't reach
+To Node 6344: Can't reach
+To Node 16: 33 miles
+To Node 0: Can't reach
+To Node 1: Can't reach
+To Node 2: 26 miles
+To Node 3: 29 miles
+To Node 388: 44 miles
+To Node 4: 35 miles
+To Node 389: 49 miles
+To Node 5: 0 miles
+To Node 6: 8 miles
+To Node 7: 17 miles
+To Node 8: 12 miles
+To Node 3861: 57 miles
+To Node 305: 10 miles
+To Node 3862: 49 miles
+To Node 9: 1 miles
+To Node 309: 26 miles
+Visited Nodes during Dijkstra's Algorithm:
+[16, 273, 274, 2, 3, 388, 4, 1060215, 389, 5, 6, 7, 305, 8, 1060390, 3872, 3861, 9, 3862, 4005, 4006, 309, 3998]
